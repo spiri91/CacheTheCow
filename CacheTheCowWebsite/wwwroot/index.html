@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+    <script src="client/repo.js"></script>
+    <script src="client/templating.js"></script>
+    <script src="client/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <br />
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn btn-warning pull-left" id='previousMovie'>Previous movie</button>
+                <button class="btn btn-success pull-right" id="nextMovie">Next movie</button>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id='loaderDiv'>
+        <i>Loading</i>
+    </div>
+    <div class="movieInfo">Loading</div>
+    <br /><hr />
+    <div class="images"></div>
+    <br /><hr />
+    <div class="keyArtImages"></div>
+    <br /><hr />
+    <div class="videos"></div>
+    <br /><hr />
+    <div class="viewingWindow"></div>
+</body>
+</html>
